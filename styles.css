@@ -16,7 +16,7 @@ h1 {
   padding-top: 30px;
   position: relative;
 }
-.display-item {
+.previous-operand {
   position: absolute;
   bottom: 10px;
   right: 10px;

@@ -1,3 +1,21 @@
+const numberButtons = document.querySelectorAll('[data-number]')
+const operationsButtons = document.querySelectorAll('[data-operation')
+const equalsButton = document.querySelector('[data-equals]')
+const deleteButton = document.querySelector('[data-delete]')
+const allClearButton = document.querySelector('[data-clear]')
+const previousOperandTextElement = document.querySelector(
+  '[data-previous-operand]'
+)
+const currentOperandTextElement = document.querySelector(
+  '[data-current-operand]'
+)
+
+numberButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    console.log('Jessica you can do it!')
+  })
+})
+
 // calculator functions
 function add(num1, num2) {
   return num1 + num2
@@ -37,7 +55,7 @@ function operate(operator, num1, num2) {
   }
 }
 
-operate(console.log(add(1, 2)))
-operate(console.log(sub(1, 2)))
-operate(console.log(mult(1, 2)))
-operate(console.log(div(1, 2)))
+// operate(console.log(add(1, 2)))
+// operate(console.log(sub(1, 2)))
+// operate(console.log(mult(1, 2)))
+// operate(console.log(div(1, 2)))
